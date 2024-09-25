@@ -134,7 +134,7 @@ Now let's make sure this conda environment is available in the Notebook Kernel l
 
 ```shell
 conda install pip
-conda install ipykernel
+conda install ipykernel -y
 python -m ipykernel install --user --name diffusers --display-name "Python (diffusers)"
 ```
 

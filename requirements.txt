@@ -2,4 +2,6 @@ git+https://github.com/huggingface/diffusers
 torch==2.0.0
 huggingface-hub==0.25.1
 transformers==4.37.1
-torch==0.15.1
+torchvision==0.15.1
+accelerate
+numpy==1.26.4
