@@ -41,10 +41,12 @@ az account list --output table
 
 ### Create the Azure resources 
 
-To run the notebook in Azure Machine Learning, you'll need to create the following resources:
+To run the notebook in Azure Machine Learning, you'll need the following resources:
 - A new resource group
 - An Azure ML workspace
 - A GPU compute instance
+
+If you're starting from a blank slate, go through the next steps. If you already have some of these resources created, skip the creation steps
 
 Define variables 
  ```python
