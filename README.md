@@ -46,7 +46,7 @@ To run the notebook in Azure Machine Learning, you'll need the following resourc
 - An Azure ML workspace
 - A GPU compute instance
 
-If you're starting from a blank slate, go through the next steps. If you already have some of these resources created, skip the creation steps
+If you're starting from a blank slate, go through the next steps. If you already have some of these resources created, skip the creation steps:
 
 Define variables 
  ```python
@@ -116,7 +116,7 @@ Open up a terminal
 Clone this repository
 
 ```shell
-git clone
+git clone https://github.com/vhoudebine/azure-ml-stable-diffusion.git
 cd azure-ml-stable-diffusion
 ```
 Create new conda environment
@@ -135,7 +135,6 @@ pip install -r requirements.txt
 Now let's make sure this conda environment is available in the Notebook Kernel list, from the terminal run
 
 ```shell
-conda install pip
 conda install ipykernel -y
 python -m ipykernel install --user --name diffusers --display-name "Python (diffusers)"
 ```
