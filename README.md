@@ -81,7 +81,7 @@ $schema: https://azuremlschemas.azureedge.net/latest/computeInstance.schema.json
 
 type: computeinstance
 
-size: Standard_NC6s_v3
+size: Standard_NC24ads_A100_v4
 idle_time_before_shutdown: "PT30M"
 
 schedules:
