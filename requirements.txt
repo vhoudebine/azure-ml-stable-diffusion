@@ -5,3 +5,5 @@ transformers==4.37.1
 torchvision==0.15.1
 accelerate
 numpy==1.26.4
+azure-ai-ml
+azure-identity
